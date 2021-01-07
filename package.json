@@ -40,13 +40,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahtimir/HW-8-containers.git"
+    "url": "git+https://github.com/ahtimir/HW-8-containers-map.git"
   },
   "keywords": [
     "homework"
   ],
   "bugs": {
-    "url": "https://github.com/ahtimir/HW-8-containers/issues"
+    "url": "https://github.com/ahtimir/HW-8-containers-map/issues"
   },
-  "homepage": "https://github.com/ahtimir/HW-8-containers#readme"
+  "homepage": "https://github.com/ahtimir/HW-8-containers-map#readme"
 }
