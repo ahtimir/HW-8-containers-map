@@ -5,10 +5,15 @@ export default class ErrorRepository {
     this.errorLogs = new Map();
   }
 
+  addError(number, string) {
+    this.errorLogs.set(number, string);
+  }
+
   translate(code) {
-    if (this.errorLogs.has(code)) {
-      return this.errorLogs.get(code);
+    const message = this.errorLogs.get(code);
+    if (message === undefined || null || '') {
+      return 'Unknown error';
     }
-    return 'Unknown error';
+    return message;
   }
 }
